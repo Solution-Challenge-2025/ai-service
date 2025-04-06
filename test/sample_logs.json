@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2024-04-06T10:00:00Z",
+    "level": "info",
+    "message": "Request completed successfully",
+    "path": "/api/products",
+    "method": "GET",
+    "duration": 150,
+    "status": 200
+  },
+  {
+    "timestamp": "2024-04-06T10:01:00Z",
+    "level": "error",
+    "message": "Database connection timeout",
+    "path": "/api/orders",
+    "method": "POST",
+    "duration": 5000,
+    "status": 500
+  },
+  {
+    "timestamp": "2024-04-06T10:02:00Z",
+    "level": "warning",
+    "message": "Rate limit exceeded",
+    "path": "/api/auth/login",
+    "method": "POST",
+    "duration": 50,
+    "status": 429
+  },
+  {
+    "timestamp": "2024-04-06T10:03:00Z",
+    "level": "error",
+    "message": "Invalid authentication token",
+    "path": "/api/users/profile",
+    "method": "GET",
+    "duration": 20,
+    "status": 401
+  },
+  {
+    "timestamp": "2024-04-06T10:04:00Z",
+    "level": "info",
+    "message": "Request completed successfully",
+    "path": "/api/products",
+    "method": "GET",
+    "duration": 180,
+    "status": 200
+  },
+  {
+    "timestamp": "2024-04-06T10:05:00Z",
+    "level": "warning",
+    "message": "High memory usage detected",
+    "path": "/api/products/search",
+    "method": "GET",
+    "duration": 3000,
+    "status": 200
+  },
+  {
+    "timestamp": "2024-04-06T10:06:00Z",
+    "level": "info",
+    "message": "Request completed successfully",
+    "path": "/api/products",
+    "method": "GET",
+    "duration": 160,
+    "status": 200
+  },
+  {
+    "timestamp": "2024-04-06T10:07:00Z",
+    "level": "error",
+    "message": "SQL Injection attempt detected",
+    "path": "/api/products/search",
+    "method": "GET",
+    "duration": 30,
+    "status": 403
+  },
+  {
+    "timestamp": "2024-04-06T10:08:00Z",
+    "level": "info",
+    "message": "Request completed successfully",
+    "path": "/api/cart",
+    "method": "POST",
+    "duration": 2500,
+    "status": 200
+  },
+  {
+    "timestamp": "2024-04-06T10:09:00Z",
+    "level": "error",
+    "message": "API rate limit exceeded",
+    "path": "/api/products",
+    "method": "GET",
+    "duration": 40,
+    "status": 429
+  }
+] 

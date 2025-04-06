@@ -1,0 +1,11 @@
+timestamp,level,message,path,method,duration,status
+2024-04-06T10:00:00Z,info,Request completed successfully,/api/products,GET,150,200
+2024-04-06T10:01:00Z,error,Database connection timeout,/api/orders,POST,5000,500
+2024-04-06T10:02:00Z,warning,Rate limit exceeded,/api/auth/login,POST,50,429
+2024-04-06T10:03:00Z,error,Invalid authentication token,/api/users/profile,GET,20,401
+2024-04-06T10:04:00Z,info,Request completed successfully,/api/products,GET,180,200
+2024-04-06T10:05:00Z,warning,High memory usage detected,/api/products/search,GET,3000,200
+2024-04-06T10:06:00Z,info,Request completed successfully,/api/products,GET,160,200
+2024-04-06T10:07:00Z,error,SQL Injection attempt detected,/api/products/search,GET,30,403
+2024-04-06T10:08:00Z,info,Request completed successfully,/api/cart,POST,2500,200
+2024-04-06T10:09:00Z,error,API rate limit exceeded,/api/products,GET,40,429
